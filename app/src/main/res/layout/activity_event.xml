@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EventActivity"
+    android:orientation="vertical"
+    android:background="@color/egg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingRight="15sp"
+        android:padding="15sp"
+        android:paddingBottom="15sp"
+        android:paddingTop="25sp"
+        android:text="Tutorial 2: Synchro-phasor Technology in Power Systems"
+        android:textSize="30sp"
+        app:fontFamily="@font/raleway_medium"
+        android:textStyle="bold"
+        android:layout_marginBottom="10sp"
+        android:id="@+id/sHead"
+        android:background="#000000"
+        android:textColor="@color/golden"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Day 2 Saturday"
+                android:layout_margin="5sp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle=""
+                android:fontFamily="@font/raleway_medium"
+                android:id="@+id/sDay"
+                android:textColor="@color/darko"/>
+            <ImageView
+                android:layout_width="80sp"
+                android:layout_height="80sp"
+                android:src="@drawable/dec14f"
+                android:id="@+id/sCal"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:text="09:30 AM"
+                android:gravity="center"
+                android:fontFamily="@font/numans"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:id="@+id/sStart"
+                android:paddingLeft="15sp"
+                android:textColor="@color/darko"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3"
+                android:text="TO"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:fontFamily="@font/raleway_medium"
+                android:textColor="@color/darko"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:text="11:11 PM"
+                android:gravity="center"
+                android:fontFamily="@font/numans"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:id="@+id/sEnd"
+                android:paddingRight="15sp"
+                android:textColor="@color/darko"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sLoc"
+        android:layout_marginTop="10sp"
+        android:gravity="center"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:background="@color/darko">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/location"
+        android:paddingLeft="5sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A11, A12, A13, EEE Seminar Hall and EEE Auditorium"
+            android:textSize="20sp"
+            android:fontFamily="@font/raleway_medium"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:id="@+id/sVenue"
+            android:textColor="@color/turquoise"
+            android:paddingLeft="20sp"
+            android:paddingRight="5sp"
+            android:paddingTop="10sp"
+            android:paddingBottom="10sp"/>
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click above to check out the venue on the map"
+            android:layout_gravity="center"
+            android:fontFamily="@font/raleway_medium"
+            android:textColor="@color/darko"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35sp"
+        android:text="Description"
+        android:fontFamily="@font/raleway_medium"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginBottom="5sp"
+        android:textColor="@color/darko"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Modern Power System Protection Practices and Applications for Smart Grids and Microgrids
+Dr. Ramakrishna Gokaraju, University of Saskatchewan
+Dr. Ashok Kumar  Pradhan, IIT Kharagpur"
+        android:gravity="center"
+        android:lineSpacingExtra="2sp"
+        android:fontFamily="@font/raleway_medium"
+        android:textStyle="italic"
+        android:id="@+id/sDesc"
+        android:padding="10sp"
+        android:textColor="@color/darko"
+        android:layout_marginBottom="20sp"/>
+
+    </LinearLayout>
+
+</ScrollView>

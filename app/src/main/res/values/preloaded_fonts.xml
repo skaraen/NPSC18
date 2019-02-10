@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/bungee_inline</item>
+        <item>@font/comfortaa_light</item>
+        <item>@font/flavors</item>
+        <item>@font/krona_one</item>
+        <item>@font/michroma</item>
+        <item>@font/numans</item>
+        <item>@font/orbitron</item>
+        <item>@font/raleway_medium</item>
+        <item>@font/roboto_mono_medium</item>
+        <item>@font/voces</item>
+    </array>
+</resources>
